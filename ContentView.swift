@@ -17,7 +17,7 @@ struct PrimaryButton: View {
     var body: some View {
         Text(title)
             .font(.title3)
-            .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+            .fontWeight(.bold/)
             .padding()
             .foregroundColor(.white)
             .frame(maxWidth: .infinity)
